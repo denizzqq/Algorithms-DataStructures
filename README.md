@@ -17,11 +17,9 @@ Two classes are provided, both inheriting from the class "PermutationVariation."
 - 6-Depth First Search: In this task, the DFS algorithm creates and solves a randomized maze. The maze is represented by a graph with V = \(N^2\) nodes, arranged in a square grid, along with the connecting edges in between. In this context, the nodes represent intersections, and the edges represent direct connections between these intersections. Therefore, the edges correspond to the pathways within the maze. This project is the beginning of graph-based algorithms in this repo.
 
 - 7-Clustering: In this task, you will solve a clustering problem using the Prim's Minimum Spanning Tree (MST) algorithm. A cluster is a group of objects that share similar properties. This similarity or dissimilarity can be expressed, for example, using a norm. In this task, we consider points in \(R^n\) with the Euclidean norm.
-
 Cluster analysis is applied in various fields such as image processing or the classification of genetic data. As an application example, in addition to the n-dimensional graphs we create, you will also explore the IRIS dataset from the UCI Machine Learning Repository.
 
 - 8-Flow Algorithms: In this task, you will use the Edmonds-Karp algorithm to solve a general graph problem. The objective is to find as many edge-disjoint paths as possible in a given undirected graph between two nodes, s and t. A set of paths is considered edge-disjoint if none of the edges are shared between different paths. However, nodes can be used by different paths.
-
 The focus is on sets of edge-disjoint paths with a maximum number of paths. There can be various such maximal sets. In Task, the goal is to determine the maximum number of edge-disjoint paths between nodes s and t. Additionally, the aim is to return a maximum set of such paths. Here the Edmonds-Karp algorithm is applied with the help of Ford-Fulkerson algorithm and its class.
 
 
